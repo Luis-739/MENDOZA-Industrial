@@ -14,10 +14,9 @@
                 background-size: cover; /* Cubre toda la pantalla */
                 background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen */
                 background-blend-mode: overlay; /* Mezcla la imagen con el fondo negro */
-                display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 100vh; /* Ocupa toda la pantalla */
+                min-height: 100vh; /* Permite que el contenido crezca y se desplace */
                 text-align: center;
             }
     
@@ -25,8 +24,8 @@
             .contenedor {
                 width: 80%;
                 max-width: 900px;
+                margin: 20px auto; /* Agrega margen para evitar que el contenido quede pegado */
             }
-    
             h1 {
                 color: yellow;
                 font-size: 3rem;
@@ -36,6 +35,10 @@
                 color: white;
             }
     
+            p {
+            font-size: 22px;
+            text-align: justify; /* Justifica el texto para una mejor presentación */
+         }
             a {
                 color: cyan;
                 font-weight: bold;
@@ -60,9 +63,6 @@
             }
         </style>
         <style>
-            p{
-                font-size: 22px;
-            }
         </style>
         <style>
             a{
