@@ -1,0 +1,27 @@
+
+* {
+font-size: 40px;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+color: rgb(6, 226, 79);
+}
+
+p {
+color: gold;
+}
+
+img {
+    width: 200px;
+}
+ul {
+    color: coral;
+}
+
+section #titulo_productos {
+    font-size: 100px;
+}
